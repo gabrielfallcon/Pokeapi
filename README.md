@@ -1,44 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+    <img width="150px" alt="Corebiz" src="https://tecnoblog.net/wp-content/uploads/2017/08/lugia-pokemon-go-700x542.png" />
+    <br/> <br /> <br />
+    PokeApi - Reactjs e TypeScript 
+</h2>
 
-## Available Scripts
+<h4 align="center">
+  Frontend create App with React.
+</h4>
 
-In the project directory, you can run:
 
-### `yarn start`
+<p align="center">
+  <img alt="Demo on Vercel" src="https://res.cloudinary.com/https-github-com-gabrielfallcon/image/upload/v1597814801/pokeapi_fso60s.png">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :rocket: Techs
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Projeto desenvolvido utilizando:
 
-### `yarn test`
+-  [ReactJS](https://reactjs.org)
+-  [Typescript](https://www.typescriptlang.org)
+-  [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
+-  [Axios](https://github.com/axios/axios)
+-  [Styled-components](https://www.styled-components.com)
+-  [React-icons](https://react-icons.github.io/react-icons)
+-  [VS Code](https://code.visualstudio.com/) 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :link: Links
+  [Aplicação](https://pokeapi-taupe.vercel.app/)
 
-### `yarn build`
+## :memo: Tarefas
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nesta aplicação foi realizado:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [X] A Listagem de pokemons com as informações da API de pokemon fornecida
+- [X] O Redirecionamento de rota com as informações do Pokemon
+- [X] O Layout teve como base os principios de [Mobile First](https://www.hostgator.com.br/blog/mobile-first-o-que-e/) desenvolvendo para telas mobile e adaptando para web 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :information_source: How To Use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v12.6][nodejs] or higher + [Yarn v1.22][yarn] or higher installed on your computer. From your command line:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone this repository
+$ git clone https://github.com/gabrielfallcon/Pokeapi.git pokeapi
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Go into the repository
+$ cd pokeapi
 
-## Learn More
+# Install dependencies
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Run the app (WEB)
+$ yarn start
+```
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desenvolvido por [Gabriel Nascimento](https://www.linkedin.com/in/frontgabriel/) :trollface: :purple_heart:
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
