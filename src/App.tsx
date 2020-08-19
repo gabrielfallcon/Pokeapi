@@ -2,8 +2,15 @@ import React from 'react';
 
 import Routes from './routes/';
 
-import './assets/style.css';
+import GlobalStyle from './assets/global';
 
-const App = () => <Routes />
+const App = () => {
+  return (
+    <>
+      <Routes />
+      <GlobalStyle />
+    </>
+  );
+}
 
 export default App;

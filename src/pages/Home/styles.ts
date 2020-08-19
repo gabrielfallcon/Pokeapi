@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
+  position: relative;
 `;
 
 export const Header = styled.div`
@@ -58,5 +59,19 @@ export const SectionListPokemons = styled.div`
   
 `;
 
+export const MorePokemons = styled.div`
+  width: 200px;
+  height: 100px;
+  margin-bottom: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    background: transparent;
+    color: #FECA1B;
+    font-size: 22px;
+  }
+`;
 
    
